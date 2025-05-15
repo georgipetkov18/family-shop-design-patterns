@@ -10,8 +10,8 @@ public abstract class IceCreamDecorator implements IceCream {
     }
 
     @Override
-    public String create() {
-        return this.iceCream.create();
+    public String makeIceCream() {
+        return this.iceCream.makeIceCream();
     }
 }
 

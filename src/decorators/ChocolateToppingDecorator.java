@@ -8,7 +8,7 @@ public class ChocolateToppingDecorator extends IceCreamDecorator{
     }
 
     @Override
-    public String create() {
-        return super.create() + " with chocolate topping";
+    public String makeIceCream() {
+        return super.makeIceCream() + " with chocolate topping";
     }
 }

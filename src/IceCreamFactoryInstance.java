@@ -3,7 +3,6 @@ import interfaces.IceCream;
 import interfaces.IceCreamFactory;
 
 public class IceCreamFactoryInstance implements IceCreamFactory {
-
     @Override
     public IceCream createIceCream(IceCreamType type) {
         IceCream iceCream;

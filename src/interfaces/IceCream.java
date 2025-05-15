@@ -1,5 +1,5 @@
 package interfaces;
 
 public interface IceCream {
-    String create();
+    String makeIceCream();
 }
